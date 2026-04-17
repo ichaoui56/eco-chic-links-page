@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Boutique La Liberté',
-  description: 'Boutique La Liberté',
-  generator: 'Boutique La Liberté',
+  title: 'ECO CHIC',
+  description: 'ECO CHIC',
+  generator: 'ECO CHIC',
   icons: {
     icon: [
       {
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/favicon.ico',
+        type: 'image/x-icon',
       },
     ],
     apple: '/apple-icon.png',
